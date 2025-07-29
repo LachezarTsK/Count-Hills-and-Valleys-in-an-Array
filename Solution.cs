@@ -29,7 +29,7 @@ public class Solution
 
     private int SkipSameValues(int index, int[] input)
     {
-        while (index + 1 < input.length && input[index + 1] == input[index]) {
+        while (index + 1 < input.Length && input[index + 1] == input[index]) {
             ++index;
         }
         return index;
